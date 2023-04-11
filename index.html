@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Image With JS</title>
+    <link rel="stylesheet" href="style/homepage.css">
+    <style>
+        #previewImg {
+            width: 300px;
+            height: auto;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 7px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper-heading">
+            <div class="title">Preview Your Image</div>
+        </div>
+
+        <div class="wrapper-input">
+            <input type="file" id="fileInput" size="60">
+        </div>
+        <img id="previewImg" src="#" alt="Preview Image">
+
+        <button id="remove-preview">Remove</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
